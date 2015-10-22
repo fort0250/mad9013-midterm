@@ -1,0 +1,228 @@
+
+@font-face {
+  font-family: 'Pacifico';
+  font-style: normal;
+  font-weight: 400;
+  src: url(fonts/pacifico.woff2) format('woff2');
+}
+
+@font-face {
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 400;
+  src: url(fonts/oswald.woff2) format('woff2');
+}
+
+header h1{
+	font-family: pacifico;
+	text-align: center;
+	font-size: .8rem;	
+}
+
+h2{
+	font-size: .8rem;
+	font-family: pacifico;		
+}
+
+h3{
+	font-size: .8rem;
+	font-family: pacifico;			
+}
+
+p{
+	font-size: .8rem;
+	font-family: oswald;
+		
+}
+
+nav ul{
+	list-style: none;
+	padding: 0;
+	font-size: .8rem;	
+	font-family: oswald;
+}
+
+nav ul li{
+ 	
+	text-align: center;	
+	
+}
+
+
+
+nav ul li a{
+	border: 1px dotted black;
+	border-bottom: none;
+	display: block;
+	padding: 1rem 0;
+}
+
+nav ul li:last-of-type a{
+	border-bottom: 1px dotted black;
+}
+
+img{
+	width: 60%;
+	float: left;	
+}
+
+
+
+/*Second*/
+@media screen and (min-width: 35rem) and (max-width: 60rem){
+  header h1{
+	font-family: pacifico;
+	text-align: center;
+	font-size: 1rem;	
+}
+
+h2{
+	font-size: 1rem;
+	font-family: pacifico;		
+}
+
+h3{
+	font-size: 1rem;
+	font-family: pacifico;			
+}
+
+p{
+	font-size: 1rem;
+	font-family: oswald;
+		
+}
+
+nav ul{
+	list-style: none;
+	padding: 0;
+	font-size: 1rem;	
+	font-family: oswald;
+}
+
+nav ul li{
+ 	
+	text-align: center;	
+	
+}
+
+.content{
+	width: 63%;
+	float: left;	
+}
+
+.side{
+	float: right;
+	width: 37%;	
+}
+
+.footer{
+	float:left; 
+			text-align:center; 
+			width:100%;
+		
+}
+
+.mainnav ul{
+	width: 100%;
+	display: table;	
+	padding: 0; 
+	text-align: center;
+	list-style-type: none;
+}
+
+.mainnav li{
+	width: 25%;
+	text-align:center;
+	display: inline-block;	
+}
+
+
+nav ul li a:last-of-type{
+	border-bottom: 1px dotted black;
+}
+
+
+}
+
+
+@media (min-width: 60rem){
+	
+	 header h1{
+	font-family: pacifico;
+	text-align: center;
+	font-size: 1.5rem;	
+}
+
+h2{
+	font-size: 1.5rem;
+	font-family: pacifico;		
+}
+
+h3{
+	font-size: 1.5rem;
+	font-family: pacifico;			
+}
+
+p{
+	font-size: 1.5rem;
+	font-family: oswald;
+	
+		
+}
+	
+	.content{
+        float: left;
+		width: 50%;
+		font-size: 1.5rem;
+		-webkit-column-count: 2;
+		-webkit-column-gap: 2rem;
+		
+		
+	}
+	
+	.side{
+	width: 25%;
+	float: right;	
+	}
+
+ nav ul{
+	list-style: none;
+	padding: 0;
+	font-size: 1.5rem;	
+	font-family: oswald;
+	width: 25%;
+	float: left;
+}
+
+nav ul li{
+ 	
+	text-align: center;	
+	
+}
+
+
+
+nav ul li a{
+	border: 1px dotted black;
+	border-bottom: none;
+	display: block;
+	padding: 1rem 0;
+}
+
+nav ul li:last-of-type a{
+	border-bottom: 1px dotted black;
+}
+
+    .side{
+        float: right;
+		width: 25%;
+		font-size: 1.5rem;
+    }
+	
+	.footer{
+		float: left;
+		width: 100%;
+		text-align: center
+	}
+	
+}
